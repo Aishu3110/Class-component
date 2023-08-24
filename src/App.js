@@ -1,24 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+
+// import './App.css';
+// import Task3 from "./Task3";
+// import App1 from "./App1";
+// import Buttoncomponent from "./Buttoncomponent";
+// import Counter from "./Counter";
+// import Greeting from "./Greeting";
+// // import Itemlist from "./Itemlist";
+// import Mybutton from "./Mybutton";
+// import Parentcomponent from "./Parentcomponent";
+// import Toggle from "./Toggle";
+// import Userdata from "./Userdata";
+// import Tasklist from "./Tasklist";
+import Updating from "./Updating";
+import Updating1 from "./Updating1";
+import Updaterender from "./Updaterender";
+import Updatesnapshot from "./Updatesnapshot";
+import Componentdidmount from "./Componentdidmount";
+import Unmounting from "./Unmounting";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    {/* <Task3 favcol="yellow"/> */}
+    {/* <App1/>
+    <Buttoncomponent/>
+    <Counter/>
+    <Greeting/>
+    <Mybutton/>
+    <Parentcomponent/>
+    <Toggle/>
+    <Userdata/>
+    <Tasklist/> */}
+    {/* <Itemlist/> */}
+    <Updating favcolor="green"/>
+    <Updating1 />
+    <Updaterender/>
+    <Updatesnapshot/>
+    <Componentdidmount/>
+    <Unmounting/>
+    </>
   );
 }
 
